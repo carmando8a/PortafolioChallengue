@@ -1,0 +1,308 @@
+.sobre-mi {
+    display: flex;
+    background-color: #EAF2FD;
+    width: 100%;
+    height: 421px;
+}
+
+.seccion-sobremi {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 30px;
+}
+
+.seccion-sobremi h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+}
+
+.seccion-sobremi p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+/*Responsive*/
+
+@media (max-width: 1440px){ 
+    .presentacion {
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: content-box;
+        height: 450px;
+        padding-left: 100px;
+        background-color: #F5F5F5;
+    }
+    .perfil {
+        right: 50px;   
+    }
+    .mi-logo {
+        right: 100px;
+    }
+    .mi-logo p{
+        padding-left: 10px;
+    }
+    .sobre-mi {
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 360px;
+    }
+    .seccion-sobremi {
+        padding-left: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        left: 30px;
+    }
+    .mi-logo {
+        position: relative;
+        left: 5px;
+    }
+    .mi-logo p {
+        padding-left: 10px;
+    }
+    .presentacion {
+        height: 550px;
+        padding-left: 50px;
+        background-color: #EAF2FD;
+    }
+    .presentacion-1 h1 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        color: #464646;
+        padding-top: 60px;
+    }
+    .presentacion-1 p {
+        padding-top: 20px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #464646;
+    }
+    .perfil {
+        right: 20px;
+        top: 90px;
+    }
+    .perfil img {
+        width: 268px;
+        height: 268px;
+    }
+    .sobre-mi {
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 387px;
+    }
+    .seccion-sobremi {
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .seccion-sobremi p {
+        padding-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+    nav {
+        display: flex;
+        background-color: #EAF2FD;
+        padding: 15px;
+    }
+    .mi-logo {
+        position: absolute;
+        left: 10px;
+        display: grid;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .mi-logo p {
+        position: absolute;
+        left: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #464646;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+    .menu-container {
+        position: relative;
+        box-sizing: border-box;
+        width: 200px;
+    }
+    .menu-container a {
+        text-decoration: none;
+        color: #464646;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    .menu-container a:nth-child(1){
+        display: none;
+    }
+    .menu-container a:nth-child(2){
+        display: none;
+    }
+    .menu-container a:nth-child(3){
+        display: none;
+    }
+    .menu-container a:nth-child(4){
+        display: none;
+    }
+    .menu-container a:nth-child(5){
+        display: none;
+    }
+    .menu-container a:nth-child(6){
+        padding-left: 120px;
+        padding-top: 2px;
+    }
+    .perfil {
+        position: absolute;
+        left: 70px;
+        top: 70px;
+        width: 270px;
+        height: 270px;
+        box-sizing: border-box;
+    }
+    .perfil img {
+        box-sizing: border-box;
+        width: 268px;
+        height: 268px;
+        border-radius: 200px;
+    }
+    .presentacion {
+        height: 780px;
+        padding-left: 30px;
+        padding-right: 20px;
+        background-color: #EAF2FD;
+    }
+    .presentacion-1 {
+        padding-top: 200px;
+    }
+    .sobre-mi {
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 520px;
+    }
+    .seccion-sobremi {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+    .seccion-sobremi p {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    nav {
+        display: flex;
+        background-color: #EAF2FD;
+        padding: 15px;
+    }
+    .mi-logo {
+        position: absolute;
+        left: 10px;
+        display: grid;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .mi-logo p {
+        position: absolute;
+        left: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color: #464646;
+        padding-left: 5px;
+        padding-top: 3px;
+    }
+    .menu-container {
+        position: relative;
+        box-sizing: border-box;
+        width: 200px;
+    }
+    .menu-container a {
+        text-decoration: none;
+        color: #464646;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+    .menu-container a:nth-child(1){
+        display: none;
+    }
+    .menu-container a:nth-child(2){
+        display: none;
+    }
+    .menu-container a:nth-child(3){
+        display: none;
+    }
+    .menu-container a:nth-child(4){
+        display: none;
+    }
+    .menu-container a:nth-child(5){
+        display: none;
+    }
+    .menu-container a:nth-child(6){
+        padding-left: 120px;
+        padding-top: 2px;
+    }
+    .perfil {
+        position: absolute;
+        left: 55px;
+        top: 70px;
+        width: 270px;
+        height: 270px;
+        box-sizing: border-box; 
+    }
+    .perfil img {
+        box-sizing: border-box;
+        width: 268px;
+        height: 268px;
+        border-radius: 200px;
+    }
+    .presentacion {
+        height: 780px;
+        padding-left: 30px;
+        padding-right: 20px;
+        background-color: #F5F5F5;
+    }
+    .presentacion-1 {
+        padding-top: 200px;
+    }
+    .presentacion-1 h1 {
+        font-size: 2em;
+        margin-right: none;
+    }
+    .sobre-mi {
+        display: flex;
+        background-color: #EAF2FD;
+        width: 100%;
+        height: 564px;
+    }
+    .seccion-sobremi {
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+    .seccion-sobremi p {
+        padding-right: 30px;
+    }
+}

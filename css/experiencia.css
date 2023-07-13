@@ -1,0 +1,145 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-fundo-sec: #FFFFFF;
+   --cor-bg-sec: #EAF2FD;
+   --cor-de-link: #000;
+   --cor-de-text: #464646;
+   --cor-btn: #2A7AE4;
+   --cor-border: #C8C8C8;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5 ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #000000;
+}
+
+section.experiencia {
+    padding: 32px;
+}
+
+.experiencia__section__title {
+    text-align: center;
+}
+
+.experiencia__projects {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.experiencia__container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.experiencia__img {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.experiencia__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experiencia__title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.experiencia__text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.experiencia__description {
+    display: flex;
+    gap: 16px;
+}
+
+.experiencia__boton--repo {
+    border: 1px solid var(--cor-btn);
+    background: none;
+    font-size: 14px;
+    color: var(--cor-btn);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.experiencia__boton--repo:hover {
+    transform: scale(1.1);
+}
+
+.experiencia__boton--demo {
+    border: 1px solid var(--cor-btn);
+    background: var(--cor-btn);
+    font-size: 14px;
+    color: var(--cor-de-fundo-sec);
+    padding: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.experiencia__boton--demo:hover {
+    transform: scale(1.1);
+}
+
+.experiencia__box:nth-child(2) .experiencia__img, .experiencia__box:nth-child(4) .experiencia__img{
+    order: 1;
+}
+
+.experiencia__title {
+    font-size: 22px;
+}
+
+.experiencia__text {
+    font-size: 14px;
+}
+
+/*Responsive*/
+
+@media (min-width: 768px) {
+    section.experiencia {
+        padding: 32px;
+    }
+    .experiencia__projects {
+        align-items: center;
+    }
+    .experiencia__img {
+        width: 704px;
+        height: 320px;
+    }
+}
+
+@media (min-width: 980px) {
+    section.experiencia {
+        padding: 32px 64px;
+    }
+    .experiencia__section__title {
+        font-size: 32px;
+    }
+    .experiencia__container {
+        align-items: flex-start;
+    }
+    .experiencia__box {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    .experiencia__box:nth-child(2) .experiencia__img, .experiencia__box:nth-child(4) .experiencia__img {
+        order: 1;
+    }
+}

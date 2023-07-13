@@ -1,0 +1,15 @@
+.footer {
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color:#464646;
+    text-align: center;
+}
+
+.footer__contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

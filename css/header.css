@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    /* me permite deslizar cuando hago click en los links del menu*/
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5F5F5;
+    padding: 32px;
+}
+
+.mi-logo{
+    position: relative;
+    right: 100px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.mi-logo p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+    padding-left: 5px;
+    padding-top: 3px;
+
+}
+
+.menu-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 700px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    transition: all .1s ease-in-out;
+}
+
+.menu-container a:hover {
+    cursor: pointer;
+    color: #552fee;
+}
+
+.menu-container a:nth-child(6){
+    color: #464646;
+    font-weight: 700;
+    font-style: normal;
+}
